@@ -8,7 +8,7 @@ namespace WindowsFormsApp8
 {
     public class User_Context: DbContext
     {
-        public UserContext() : base("DbConnection") { }
+        public User_Context() : base("DbConnection") { }
         public DbSet<User> Users { get; set; }
 
     }
