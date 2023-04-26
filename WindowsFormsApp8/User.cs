@@ -16,19 +16,19 @@ namespace WindowsFormsApp8
         public string Direction { get; set; }
         public string Number_Work { get; set; }
         public string First_Publication { get; set; }
-        public string Login { get; set; }
+        
         public string Password { get; set; }
         public string Email { get; set; }
         
         public User()
         { }
-        public User(string Login, string Password, string Email, string Role, string name, string lastName, string dateofBirth, string telephone, string direction, string numberWorks, string firstPublication)
+        public User( string Password, string Email,  string Name, string lastName, string dateofBirth, string telephone, string direction, string numberWorks, string firstPublication)
         {
-            this.Login = Login;
+            
             this.Password = Password;
            
             this.Email = Email;
-            this.Name = name;
+            this.Name = Name;
             this.LastName = lastName;
             this.Birthday = dateofBirth;
             this.Telephone = telephone;
